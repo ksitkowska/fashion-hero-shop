@@ -66,6 +66,13 @@ export function CollectionView({ products, collectionName, initialSellerSlug }: 
     }
 
     switch (sort) {
+      case "featured":
+        result = [...result].sort((a, b) => {
+          const aPromo = a.promoted ? 1 : 0;
+          const bPromo = b.promoted ? 1 : 0;
+          return bPromo - aPromo;
+        });
+        break;
       case "price-asc":
         result = [...result].sort((a, b) => a.price - b.price);
         break;

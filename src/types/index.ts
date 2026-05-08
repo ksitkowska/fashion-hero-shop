@@ -35,6 +35,7 @@ export interface Product {
   reviewCount: number;
   tags: string[];
   sellerId: string;
+  promoted?: boolean;
 }
 
 export interface Collection {

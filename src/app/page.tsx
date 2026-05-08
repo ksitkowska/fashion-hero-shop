@@ -1,6 +1,7 @@
 import { HeroCarousel } from "@/components/sections/hero-carousel";
 import { CategoryRow } from "@/components/sections/category-row";
 import { ProductCarousel } from "@/components/sections/product-carousel";
+import { PromotedCarousel } from "@/components/sections/promoted-carousel";
 import { FeatureStory } from "@/components/sections/feature-story";
 import { PromoTiles } from "@/components/sections/promo-tiles";
 import { ValueProps } from "@/components/sections/value-props";
@@ -11,6 +12,7 @@ export default function HomePage() {
       <HeroCarousel />
       <CategoryRow />
       <ProductCarousel />
+      <PromotedCarousel />
       <FeatureStory />
       <PromoTiles />
       <ValueProps />

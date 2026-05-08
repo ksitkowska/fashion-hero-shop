@@ -79,6 +79,7 @@ export const products: Product[] = [
     reviewCount: 156,
     tags: ["responsive", "reflective", "performance", "breathable"],
     sellerId: "s1",
+    promoted: true,
     colors: [
       { name: "Storm Blue", hex: "#4a6fa5", image: "/images/products/product-6.jpg" },
       { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
@@ -1016,6 +1017,7 @@ export const products: Product[] = [
     reviewCount: 89,
     tags: ["elegant", "lightweight", "cushioned", "office"],
     sellerId: "s2",
+    promoted: true,
     colors: [
       { name: "Champagne", hex: "#e8d5b7", image: "/images/products/product-15.jpg" },
       { name: "Black", hex: "#1a1a1a", image: "/images/products/product-10.jpg" },
@@ -1613,6 +1615,7 @@ export const products: Product[] = [
     reviewCount: 156,
     tags: ["gym", "flat-sole", "stable", "cross-training"],
     sellerId: "s3",
+    promoted: true,
     colors: [
       { name: "Black", hex: "#1a1a1a", image: "/images/products/product-1.jpg" },
       { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-8.jpg" },
@@ -1736,6 +1739,7 @@ export const products: Product[] = [
     reviewCount: 87,
     tags: ["recovery", "cushioned", "post-workout", "performance"],
     sellerId: "s3",
+    promoted: true,
     colors: [
       { name: "Black", hex: "#1a1a1a", image: "/images/products/product-16.jpg" },
       { name: "Grey", hex: "#8a8a8a", image: "/images/products/product-8.jpg" },
@@ -2729,6 +2733,7 @@ export const products: Product[] = [
     reviewCount: 56,
     tags: ["smart-casual", "leather", "office", "classic"],
     sellerId: "s7",
+    promoted: true,
     colors: [
       { name: "Brown", hex: "#6b5b4a", image: "/images/products/product-14.jpg" },
       { name: "Black", hex: "#1a1a1a", image: "/images/products/product-4.jpg" },
@@ -3151,6 +3156,7 @@ export const products: Product[] = [
     reviewCount: 4,
     tags: ["vintage", "distressed", "canvas", "casual"],
     sellerId: "s9",
+    promoted: true,
     colors: [
       { name: "Washed Cream", hex: "#e8e0d4", image: "/images/products/product-8.jpg" },
     ],

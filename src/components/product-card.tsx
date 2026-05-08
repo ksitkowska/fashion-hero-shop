@@ -48,10 +48,19 @@ export function ProductCard({ product, className }: ProductCardProps) {
             className="relative aspect-square overflow-hidden mb-3"
             style={{ background: productGradient(firstColor.hex) }}
           >
-            {badgeLabel && (
-              <span className="absolute top-3 left-3 text-[10px] font-medium uppercase tracking-wider bg-white/90 px-2 py-1 z-10">
-                {badgeLabel}
-              </span>
+            {(product.promoted || badgeLabel) && (
+              <div className="absolute top-3 left-3 z-10 flex flex-col items-start gap-1">
+                {product.promoted && (
+                  <span className="text-[10px] font-medium uppercase tracking-wider bg-charcoal text-white px-2 py-1">
+                    Sponsored
+                  </span>
+                )}
+                {badgeLabel && (
+                  <span className="text-[10px] font-medium uppercase tracking-wider bg-white/90 px-2 py-1">
+                    {badgeLabel}
+                  </span>
+                )}
+              </div>
             )}
             {showImage ? (
               <Image
